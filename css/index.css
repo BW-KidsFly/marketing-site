@@ -181,6 +181,9 @@ p {
 .nav-container h1 {
   font-size: 7rem;
 }
+.nav-container a {
+  text-decoration: none;
+}
 .nav-container nav {
   display: flex;
   justify-content: center;
@@ -333,4 +336,92 @@ footer {
 .home img {
   width: 100%;
   border-radius: 20px;
+}
+.home h3 {
+  padding: 15px;
+}
+@media (max-width:500px) {
+  .home h3 {
+    padding: 15px;
+  }
+}
+.home p {
+  padding: 15px;
+}
+@media (max-width:500px) {
+  .home p {
+    padding: 15px;
+  }
+}
+.home .anu-pic {
+  display: flex;
+  flex-direction: wrap;
+  justify-content: center;
+  padding: 15px;
+}
+.home .anu-pic img {
+  width: 70%;
+  height: 70%;
+  margin: 20px 2.5%;
+  border-radius: 20px;
+}
+@media (max-width:500px) {
+  .home .anu-pic img {
+    width: 90%;
+    margin: 0 5%;
+  }
+}
+.home .darragh-pic {
+  display: flex;
+  flex-direction: wrap;
+  justify-content: center;
+  padding: 15px;
+}
+.home .darragh-pic img {
+  width: 70%;
+  height: 70%;
+  margin: 20px 2.5%;
+  border-radius: 20px;
+}
+@media (max-width:500px) {
+  .home .darragh-pic img {
+    width: 90%;
+    margin: 0 5%;
+  }
+}
+.home .john-pic {
+  display: flex;
+  flex-direction: wrap;
+  justify-content: center;
+  padding: 15px;
+}
+.home .john-pic img {
+  width: 70%;
+  height: 70%;
+  margin: 20px 2.5%;
+  border-radius: 20px;
+}
+@media (max-width:500px) {
+  .home .john-pic img {
+    width: 90%;
+    margin: 0 5%;
+  }
+}
+.home .amin-pic {
+  display: flex;
+  flex-direction: wrap;
+  justify-content: center;
+  padding: 15px;
+}
+.home .amin-pic img {
+  width: 70%;
+  height: 70%;
+  margin: 20px 2.5%;
+  border-radius: 20px;
+}
+@media (max-width:500px) {
+  .home .amin-pic img {
+    width: 90%;
+    margin: 0 5%;
+  }
 }
