@@ -1,0 +1,36 @@
+.nav-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: whitesmoke;
+    border-bottom: 1px solid gainsboro;
+    padding: .padding-style(20px);
+
+    .logo-container {
+        margin-top: 1%;
+        display: flex;
+        // flex-direction: row;
+        // flex-wrap: nowrap;
+        justify-content: center;
+    }
+
+    .logo {
+        width: 65px;
+        height: 65px;
+    }
+
+    h1 {
+        font-size: 7rem;
+    }
+
+    nav {
+        .flexcenter();
+
+        a {
+            text-decoration: none;
+            margin: 15px 3.2rem;
+            color: black;
+            font-size: 3.2rem;
+        }
+    }
+} 
